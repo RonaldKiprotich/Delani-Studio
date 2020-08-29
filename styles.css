@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
+.home-page{
+  background-image: url("../images/assets/backgrounds/h_img.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding-top:18%; 
+  font-family: 'Times New Roman', Times, serif;
+}
