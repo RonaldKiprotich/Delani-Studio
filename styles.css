@@ -19,3 +19,10 @@
 .social-media{
   text-align: center;
 }
+footer{
+  text-align: center;
+}
+.container-fluid{
+background-image: url("images/assets/backgrounds/c_image.jpg");
+text-align: center;
+}
