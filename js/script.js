@@ -1,5 +1,12 @@
 $(document).ready(function(){
-    $("#design-image").click(function(){
+    $(".design").click(function(){
       $("#design-image").toggle();
-      $("#design").toggle();
+      $("#descDesign").toggle();
     });
+  });
+  $(document).ready(function(){
+    $(".development").click(function(){
+      $("#development-image").toggle();
+      $("#development").toggle();
+    });
+  });

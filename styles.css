@@ -34,3 +34,12 @@ background-color: transparent;
 #message-form{
   background-color: transparent;
 }
+#descDesign,#development,#product{
+  display: none;
+}
+#input1,#input2,#comment{
+  background-color: transparent;
+}
+.form-control::placeholder{
+  color: white;
+}
