@@ -5,6 +5,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
+  height: 100vh;
   text-align: center;
   padding-top:18%; 
   font-family: 'Times New Roman', Times, serif;
@@ -13,8 +14,11 @@
     text-align: center;
 }
 .services{
+    height:50vh;
     text-align:center;
     background-image: url("images/assets/backgrounds/s_image.jpg");
+    color: white;
+    padding-top: 70px;
 }
 .social-media{
   text-align: center;
@@ -25,4 +29,8 @@ footer{
 .container-fluid{
 background-image: url("images/assets/backgrounds/c_image.jpg");
 text-align: center;
+background-color: transparent;
+}
+#message-form{
+  background-color: transparent;
 }
