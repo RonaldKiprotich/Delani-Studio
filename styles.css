@@ -43,3 +43,9 @@ background-color: transparent;
 .form-control::placeholder{
   color: white;
 }
+.headings{
+  text-align:center;
+}
+.port{
+  text-align:center;
+}
