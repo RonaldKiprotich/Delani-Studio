@@ -24,7 +24,7 @@ $("#work2").mouseover(function(){
   $("#overlay2").hide();
 });
 $("#work3").mouseover(function(){
-  $("#overlay").show();
+  $("#overlay3").show();
 }).mouseout(function(){
   $("#overlay3").hide();
 });
