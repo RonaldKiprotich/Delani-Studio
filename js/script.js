@@ -11,21 +11,6 @@ $(document).ready(function(){
       $("#product-image").toggle();
       $("#product").toggle();
     });
-//       $("#work1").mouseover(function() {
-//         $("#overlay").show();
-//     }).mouseout(function() {
-//         $("#overlay").hide();
-//     });
-//     $("#work2").mouseover(function() {
-//       $("#overlay").show();
-//   }).mouseout(function() {
-//       $("#overlay").hide();
-//   });
-//   $("#work3").mouseover(function() {
-//     $("#overlay").show();
-// }).mouseout(function() {
-//     $("#overlay").hide();
-// });
 
 
 $("#work1").mouseover(function(){
@@ -71,16 +56,17 @@ $("#work8").mouseover(function(){
   });
  
 
-  // $(document).ready(function(){
-  //   $("form#message-form").submit(function(){
-  //     var name = $("input#input1").val();
-  //     if ($("input#input1").val() && $("input#input2").val()){
-  //       alert(name + ",thank you for reaching out to us. We will get back to you soon.");
-  //     }
-  //     else {
-  //       alert("Please enter your name and email address!");
-  //     }
+  $(document).ready(function(){
+    $("form#message-form").submit(function(){
+      var name = $("input#input1").val();
+      if ($("input#input1").val() && $("input#input2").val()){
+        alert(name + ",thank you for reaching out to us. We will get back to you soon.");
+      }
+      else {
+        alert("Please enter your name and email address!");
+      }
       
-  //   });
+    });
   
-  // });
+  });
+  
