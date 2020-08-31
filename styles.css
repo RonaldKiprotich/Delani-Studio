@@ -28,8 +28,10 @@ footer{
 }
 .container-fluid{
 background-image: url("images/assets/backgrounds/c_image.jpg");
-text-align: center;
-background-color: transparent;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 100%;
 }
 #message-form{
   background-color: transparent;
@@ -48,4 +50,14 @@ background-color: transparent;
 }
 .port{
   text-align:center;
+}
+.text{
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.5;
+  z-index: 1;
+  position: absolute;
+  top: 0;
 }
