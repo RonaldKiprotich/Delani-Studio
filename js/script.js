@@ -24,9 +24,9 @@ $("#work2").mouseover(function(){
   $("#overlay2").hide();
 });
 $("#work3").mouseover(function(){
-  $("#overlay3").show();
+  $("#over3").show();
 }).mouseout(function(){
-  $("#overlay3").hide();
+  $("#over3").hide();
 });
 $("#work4").mouseover(function(){
   $("#overlay4").show();
